@@ -1,0 +1,138 @@
+/* فونت فارسی برای مدال */
+.swal2-persian-font {
+    font-family: 'IRANSans', 'vazir', Arial, sans-serif !important;
+    border-radius: 15px !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  /* استایل عنوان */
+  .swal2-title-custom {
+    color: #2c3e50 !important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    padding: 1rem !important;
+    line-height: 1.8 !important;
+  }
+  
+  /* دکمه تایید */
+  .swal2-confirm-button-custom {
+    background-color: #3498db !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    margin: 10px !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .swal2-confirm-button-custom:hover {
+    background-color: #2980b9 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3) !important;
+  }
+  
+  /* دکمه انصراف */
+  .swal2-cancel-button-custom {
+    background-color: #e74c3c !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    margin: 10px !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .swal2-cancel-button-custom:hover {
+    background-color: #c0392b !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3) !important;
+  }
+  
+  /* استایل کلی مدال */
+  .swal2-popup {
+    border-radius: 15px !important;
+    padding: 2rem !important;
+  }
+  
+  /* استایل آیکون */
+  .swal2-icon {
+    border-color: #3498db !important;
+    color: #3498db !important;
+    margin: 1.5rem auto !important;
+  }
+  
+  /* انیمیشن ورود و خروج */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeOutUp {
+    from {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+
+  /* استایل input */
+.swal2-input-custom {
+  width: 100% !important;
+  min-height: 150px !important;
+  padding: 12px !important;
+  margin: 1rem 0 !important;
+  font-family: 'IRANSans', 'vazir', Arial, sans-serif !important;
+  font-size: 1.7rem !important;
+  line-height: 1.6 !important;
+  border: 2px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  resize: vertical !important;
+  direction: rtl !important;
+  transition: all 0.3s ease !important;
+}
+
+.swal2-input-custom:focus {
+  border-color: #3498db !important;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2) !important;
+  outline: none !important;
+}
+
+/* پیام اعتبارسنجی */
+.swal2-validation-custom {
+  margin-top: 0.5rem !important;
+  font-size: 0.875rem !important;
+  color: #e74c3c !important;
+  text-align: right !important;
+}
+
+/* بهبود استایل موجود */
+.swal2-popup {
+  width: 500px !important;
+  max-width: 90vw !important;
+}
+
+/* استایل placeholder */
+.swal2-input-custom::placeholder {
+  color: #95a5a6 !important;
+  opacity: 0.8 !important;
+}
+
+/* حالت غیرفعال */
+.swal2-input-custom:disabled {
+  background-color: #f5f6fa !important;
+  cursor: not-allowed !important;
+}
+
+/* استایل برای حالت خطا */
+.swal2-input-custom.swal2-inputerror {
+  border-color: #e74c3c !important;
+}

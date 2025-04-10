@@ -1,0 +1,77 @@
+/* فونت فارسی برای مدال */
+.swal2-persian-font {
+    font-family: 'IRANSans', 'vazir', Arial, sans-serif !important;
+    border-radius: 15px !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  /* استایل عنوان */
+  .swal2-title-custom {
+    color: #2c3e50 !important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    padding: 1rem !important;
+    line-height: 1.8 !important;
+  }
+  
+  /* دکمه تایید */
+  .swal2-confirm-button-custom {
+    background-color: #3498db !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    margin: 10px !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .swal2-confirm-button-custom:hover {
+    background-color: #2980b9 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3) !important;
+  }
+  
+  /* دکمه انصراف */
+  .swal2-cancel-button-custom {
+    background-color: #e74c3c !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    margin: 10px !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .swal2-cancel-button-custom:hover {
+    background-color: #c0392b !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3) !important;
+  }
+  
+  /* انیمیشن‌ها */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeOutUp {
+    from {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+  
+  /* Progress bar */
+  .swal2-timer-progress-bar {
+    background: #3498db !important;
+  }
